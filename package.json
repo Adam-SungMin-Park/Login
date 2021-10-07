@@ -5,6 +5,7 @@
   "description": "A full stack JavaScript solo project.",
   "main": "server/index.js",
   "scripts": {
+    "test": "react-scripts start",
     "build": "webpack --mode=production",
     "start": "node server/index.js",
     "dev": "npm-run-all --silent --parallel dev:*",
@@ -29,13 +30,15 @@
     ]
   },
   "dependencies": {
+    "@testing-library/jest-dom": "github:testing-library/jest-dom",
     "argon2": "^0.28.2",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "pg": "^8.6.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",

@@ -16,6 +16,7 @@ export default function LogInForm(props) {
         </label>
         <input type = "password">
         </input>
+        <h1>test</h1>
       </div>
 
     </div>
